@@ -1,0 +1,47 @@
+<!doctype html>
+<html>
+<head>
+  <title>Game</title>
+</head>
+<body>
+    <h1>Game</h1>
+
+    <form action="/madlib">
+        <label for="character">Person: </label>
+        <select name="character">
+            <option value="Elon Musk">Elon Musk</option>
+            <option value="Seema">Seema</option>
+            <option value="Andrew">Andrew</option>
+        </select>
+
+        <label for="noun">Noun: </label>
+        <select name="noun">
+            <option value="animal">animal</option>
+            <option value="plants">plants</option>
+            <option value="human">human</option>
+        </select>
+
+        <label for="color">Color: </label>
+        <input name="color" type="text">
+
+        <p>Adjective: </p>
+
+        <input type="radio" name="adjective" value="brilliant">
+        <label for="adjective">Brilliant</label>
+        
+        <input type="radio" name="adjective" value="smart">
+        <label for="adjective">Smart</label>
+        
+        <input type="radio" name="adjective" value="tall">
+        <label for="adjective">Tall</label>
+
+        <div>
+            <label for="alien">Alien</label>
+            <input type="checkbox" name="alien" value="alien">
+        </div>
+
+        <input type="submit">
+    </form>
+
+</body>
+</html>
